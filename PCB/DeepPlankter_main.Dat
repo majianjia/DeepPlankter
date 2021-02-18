@@ -1,0 +1,85 @@
+Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~DeepPlankter_main.PrjPcb|ReportField=ProjectFullPath~C:\ProgramData\Altium\CircuitMaker {BA657615-14D7-4D23-BE90-ECA23E6CE23B}\Projects\14B7AC5A-9C3F-450A-BE9C-41717958E82D\bba2cfcc-89ec-4ac1-bc65-a815e1a7209c\DeepPlankter_main.PrjPcb|ReportField=Title~BOM_PartType For Project [DeepPlankter_main.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~257|ReportField=ReportTime~16:03:12|ReportField=ReportDate~2021/1/24|ReportField=ReportDateTime~2021/1/24 16:03:12|ReportField=OutputName~BOM_PartType|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~|ReportField=CurrentTime~|ReportField=Date~|ReportField=DocumentFullPathAndName~|ReportField=DocumentName~|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~|ReportField=Organization~|ReportField=ProjectName~|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~DeepPlankter_main.PrjPcb|ReportField=DataSourceFullPath~C:\ProgramData\Altium\CircuitMaker {BA657615-14D7-4D23-BE90-ECA23E6CE23B}\Projects\14B7AC5A-9C3F-450A-BE9C-41717958E82D\bba2cfcc-89ec-4ac1-bc65-a815e1a7209c\DeepPlankter_main.PrjPcb
+JST B2B-XH-A (LF)(SN)|XH Series 2 Position 2.5 mm Pitch Through Hole Top Entry Shrouded Header|3.3V_CH1, 3.3V_CH2, 5V_CH1, 5V_CH2, 5V_CH3, ADC, BAT_CHG1, BUZZER, LED, NTC0, NTC1|PCB-s8s8ac3ylnu6waak0fxh-1|CMP-a2a66bdac84f7d61-16|11
+XT60 BAT0|XT60 Connector Male|BAT0|PCB-8tmbcd94dx0l5ponnqur-1|CMP-d8151592827e07d2-9|1
+XT60 BAT1|XT60 Connector Male|BAT1|PCB-8tmbcd94dx0l5ponnqur-1|CMP-d8151592827e07d2-9|1
+CHARGE BAT0|XH Series 2 Position 2.5 mm Pitch Through Hole Top Entry Shrouded Header|BAT_CHG0|PCB-s8s8ac3ylnu6waak0fxh-1|CMP-a2a66bdac84f7d61-16|1
+2032|Coin Cell Battery Holders 20MM (2032) SMT CELL HOLDER|BT1|PCB-u4kor45r34oj4lfal23t-1|CMP-19301741-10|1
+16V 1uF|Cap Ceramic 1uF 10V X5R 20% SMD 0402 85C Paper T/R|C1, C2, C3|CAPC1005X56X25NL10T15|CMP-126963-2|3
+1¶ÃF|0603 1 uF 16 V °¿10 % Tolerance X5R SMT Multilayer Ceramic Capacitor|C4, C17, C18, C19, C32, C32, C35, C37, C41, C42|CAPC1608X90X35LL15T15|CMP-f2f83b8d074c2d3f-6|10
+1uF|Cap Ceramic 1uF 10V X5R 20% SMD 0402 85C Paper T/R|C5, C6, C7, C57, C58, C59, C60, C61, C62|CAPC1005X56X25NL10T15|CMP-126963-2|9
+10V 22uF|Cap Ceramic 22uF 10V X5R 10% Pad SMD 1206 85C Automotive T/R|C8, C9, C10, C11, C12|PCB-l6gghpm6qgmuzlt59psh-1|CMP-1dc8d7348becc20f-1|5
+10uF|0603 10 uF 10 V °¿20 % Tolerance X5R Surface Mount Multilayer Ceramic Capacitor|C13, C15|PCB-7x9sd7nowcb4nx8jmhok-1|CMP-9bf553a3f2f54432-1|2
+4.7¶ÃF|0603 4.7 uF 10 V °¿10 % Tolerance X5R SMT Multilayer Ceramic Capacitor|C14|CAPC1608X90X35LL15T15|CMP-147010-6|1
+10nF|0.01uF Capacitor|C16, C33, C36, C38, C39|RESC1005X40X25LL05T05|CMP-16527022-3|5
+4.7¶ÃF|0603 4.7 uF 10 V °¿10 % Tolerance X5R SMT Multilayer Ceramic Capacitor|C20, C21, C22, C29, C55, C56, C64, C75|CAPC1608X90X35NL15T15|CMP-147010-6|8
+8pF|CAP CER 8PF 50V NP0 0402|C23, C24, C25, C26|CAPC1005X55X25NL05T10|CMP-137744-2|4
+100nF|Ceramic capacitor SMD-0402 100nF /16V X7R# K +-10%, Samsung, RoHS|C27, C65, C66, C67, C68, C69, C70, C71, C72, C73, C74, C76, C78, C79, C80|CAPC1005X56X25NL10T15|CMP-bf2276a55d9a60e5-19|15
+1uF|Cap Ceramic 1uF 10V X5R 10% SMD 0402 85C Paper T/R|C28, C77|CAPC1005X60X30LL05T10|CMP-8752271-2|2
+2.2uF|AVX   04026D225KAT2A   CAP, MLCC, X5R, 2.2UF, 6.3V, 0402|C30, C31|CAPC1005X56X25LL10T15|CMP-954275-2|2
+25V 2.2uF|0805 2.2 uF 25 V °¿10 % Tolerance X7R SMT Multilayer Ceramic Capacitor|C34, C40|C0805|CMP-84b64f3479215b71-1|2
+0.1uF|Cap Ceramic 0.1uF 16V X7R 10% SMD 0603 125C Paper T/R|C43, C49|CAPC1608X90X35LL15T15|CMP-175023-2|2
+16V 47uF|1210 47 uF 10 V °¿10% Tolerance X5R SMT Multilayer Ceramic Capacitor|C44, C45|PCB-h26gble9h939l4c191wl-1|CMP-cdd204dbeb8b1215-2|2
+25V 220nF|CAP CER 0.22UF 25V 10% X5R 0603|C46, C52|CAPC1608X90X35LL15T15|CMP-126800-2|2
+25V 10uF|CAP CER 10UF 25V 10% X5R 1210|C47, C53|CAPC3225X279X50NL20T25|CMP-127194-2|2
+1¶ÃF|0603 1 uF 16 V °¿10 % Tolerance X5R SMT Multilayer Ceramic Capacitor|C48, C54|CAPC1608X90X35ML15T15|CMP-f2f83b8d074c2d3f-6|2
+10V 47uF|1210 47 uF 10 V °¿10% Tolerance X5R SMT Multilayer Ceramic Capacitor|C50, C51|PCB-h26gble9h939l4c191wl-1|CMP-cdd204dbeb8b1215-2|2
+0.22uF|AVX   04026D224KAT2A   CAP, MLCC, X5R, 220NF, 6.3V, 0402|C63|CAPC1005X56X25NL10T15|CMP-126172-3|1
+TE Connectivity / AMP 2-1734592-4|Ffc/Fpc Connector, Receptacle 24 Position 1row, Full Reel|CAMERA|SOP48|CMP-9e32555c798341f5-2|1
+JST B4B-XH-A(LF)(SN)|XH Series 4 Position 2.5 mm Pitch Through Hole Crimp Top Entry Shrouded Header|CAN, I2C, I2C_MAG, UART1, UART2|PCB-nwmfqt4y1xdboio0wsyw-1|CMP-2acae3fced1af50d-8|5
+NUP1105LT1G|Single Line CAN / LIN Bus Protector, 3-Pin SOT-23, Pb-Free, Tape and Reel|D1|ONSC-SOT-23-3-318-08_V|CMP-296179-2|1
+FCI HLW8R-2C7LF|FPC Connector; 0.5mm pitch dual contactback flip FPC; 8pos|DEBUG|PCB-9fz4gdy3o615agpn7s9f-1|CMP-90945c3aea634f53-1|1
+Molex 22-28-4033|SERVAL TRIJUMPER|ESC, S1, S2, S3|PCB-8kup8qw5vsmkearo8v0b-1|CMP-b995709ba24d6652-18|4
+XT60 ESC|XT60 Connector Male|ESC_P|PCB-8tmbcd94dx0l5ponnqur-1|CMP-d8151592827e07d2-9|1
+JST B6B-XH-A(LF)(SN)|Socket; wire-board; male; XH; 2.5mm; PIN: 6; THT; 250V; 3A; -25°¬85°„C|GPS, TELE1, TELE2|PCB-z7tho54h7p2kc79zj16v-1|CMP-f3cb3ac5a78f2c0c-10|3
+W®πrth Elektronik 614105150721|Vertical Through Hole; Ver 2.0 Micro USB Connector Socket; 30 V ac; 1.8A WR-COM|J26|USB connector B|CMP-3a62f04b53f2e5a5-1|1
+3.3uH 4A|Power inductor, shielded, 10/20/30% tol, SMT, RoHS|L1, L2|PCB-nnnro8dea2m4q1g7ugdq-1|CMP-d4431d2f1dc30b84-1|2
+GREEN|Super Ultra Green 0603 1.6 x 0.8 mm 140°„ Diffused 45 mcd 2.2 V PCB Chip SMT LED|ON1, ON2|LED-0603_D|CMP-65d2acda0cfcba15-1.A.3|2
+Vishay SI7149ADP-T1-GE3|Si7149ADP Series 30 V 50 A 50 mOhm Surface Mount P-Channel Mosfet-PowerPAK SO-8|Q1|PCB-zhz9tig7820limf6j70v-1|CMP-ebab2065408c346c-3|1
+Vishay SISS23DN-T1-GE3|Si7617DN Series 30 V 12.3 mOhm 3.7 W P-Channel Mosfet - POWERPAK-1212-8|Q2, Q3, Q7, Q8, Q9|PCB-3102182-1|CMP-74eabf6acbf3ab2d-1|5
+SMMBT4401LT1G|Switching Transistor, NPN Silicon, 3-Pin SOT-23, Pb-Free, Tape and Reel|Q4, Q5, Q6, Q10, Q11, Q12, Q15, Q16|ONSC-SOT-23-3-318-08_V|CMP-860861-2|8
+SI2301BDS-T1-E3|Mosfet, P-ch, Vdss -20V, Rds(on) 0.08 Ohm, Id -2.2A, TO-236 (SOT-23), Pd 0.7W, Vgs +/-8V|Q13, Q14|SOT-23-TT3_L|CMP-a5cd6e462d967a0a-6|2
+SYM-77c1bbb3bdeca806-1|Trans MOSFET N-CH 60V 42.8A 8-Pin PowerPAK SO-DC EP T/R|Q17, Q18|PCB-0cgmvcmmtwpbvwdhxnni-1|CMP-77c1bbb3bdeca806-1|2
+1k|Res Thick Film 0402 1K Ohm 1% 0.125W(1/8W) °¿100ppm/C Pad SMD T/R|R1, R2, R3, R7, R8, R9, R13, R14, R15, R19, R20, R21, R25, R26|PCB-imsgvtunp3nvnj2wzwbs-1|CMP-56d29ab4a6068915-1|14
+47k|Thick Film Resistors - SMD 1/8watt 47Kohms 1% 100ppm High Power|R4, R5, R6, R10, R11, R12, R16, R17, R18, R22, R23, R24, R27, R28, R90, R91|RESC1005X40X25LL05T10|CMP-1859043-2|16
+0.0 ¶∏|Thick Film Resistors - SMD ZERO OHM JUMPER|R29, R30, R42, R45, R47, R51, R86|RESC1608X55X25LL10T15|CMP-3661350-4|7
+4k7|Res Thick Film 0603 4.7K Ohm 1% 1/10W °¿100ppm/°„C Molded SMD Paper T/R|R31, R32, R33, R34|RESC1608X55X30NL15T15|CMP-e2bf28f8a65d3d78-11|4
+1.0 ¶∏|RES SMD 1 OHM 5% 1/10W 0603|R35, R38, R40, R68, R71, R77, R80|RESC1609X50X30LL10T20|CMP-1856057-2|7
+N/C|Thick Film Resistors - SMD ZERO OHM JUMPER|R36, R43, R46, R48, R52|RESC1608X55X25LL10T15|CMP-3661350-4|5
+1.00 m¶∏|Res Thick Film 2512 0.001 Ohm 1% 3W °¿50ppm/C Pad SMD Automotive T/R|R37, R67, R76|PCB-wws5gc0zzodyoofoa1sn-1|CMP-5c9b974035f1835c-1|3
+2mR|Res Metal Strip 1206 0.02 Ohm 1% 0.25W(1/4W) °¿75ppm/C Molded SMD Automotive Embossed Plastic T/R|R39, R41, R73, R81|RESC3216X89X51ML25T25|CMP-1863047-2|4
+120R|Res Thick Film 0805 120 Ohm 1% 0.125W(1/8W) °¿100ppm/C Pad SMD T/R|R44|PCB-9ibrwdurth7ekdzjdzvn-1|CMP-86e64d9c460d5921-7|1
+10R|Precision resistor, SMD [Panasonic Automotive & Industrial Systems] ERJ3EKF10R0V Precision resistor, SMD|R49|RESC1608X06N|CMP-3652131-6|1
+4.7k|RES SMD 4.7K OHM 0.1% 1/10W 0603|R50, R54|RESC1609X55X30NL10T20|CMP-1863095-2|2
+330R|Res General Purpose Thick Film 0603 330 Ohm 5% 1/10W °¿100ppm/°„C Molded SMD Paper T/R|R53, R87, R88, R89|PCB-gqq469mmsoijq124jywu-1|CMP-1852941-7|4
+4.7k|Thick Film Resistors - SMD 1/16watt 4.7Kohms 1%|R55, R56, R57, R58, R59, R60|RESC1005X40X25NL10T10|CMP-3660836-2|6
+10k|Thick Film Resistors - SMD 10K OHM 1%|R61|RESC1005X40X25NL05T10|CMP-3661304-2|1
+0R|RC Series 0402 0.063 W 0 Ohms Jumper Surface Mount Thick Film Chip Resistor|R62|PCB-azzhouwj1h0sqqpj65ny-1|CMP-13527731-11|1
+0R (NC)|RC Series 0402 0.063 W 0 Ohms Jumper Surface Mount Thick Film Chip Resistor|R63|PCB-azzhouwj1h0sqqpj65ny-1|CMP-13527731-11|1
+27R|RES SMD 27 OHM 1% 1/16W 0402|R64, R65|RESC1005X40X25NL05T05|CMP-3855807-2|2
+3M|Thick Film Resistors - SMD 0603 3Mohms 5% Tol|R66, R75|RESC1608X55X30LL15T15|CMP-3654610-2|2
+470k|Res Thick Film 0603 1M Ohm 1% 0.33W(1/3W) °¿100ppm/°„C Pad SMD Automotive T/R|R69, R78|RESC1609X55X30LL10T20|CMP-d1221a8dcd300ee5-2|2
+1k|Res Thick Film 0603 1K Ohm 5% 1/10W °¿100ppm/°„C Molded SMD SMD Paper T/R|R70, R79|RESC1608X55X30NL15T15|CMP-68a0a2e72c4eb767-21|2
+10k|Res Thin Film 0603 10K Ohm 1% 1/16W °¿50ppm/°„C Molded SMD SMD Paper T/R|R72, R74|RESC1608X55X30NL15T15|CMP-a8e96364fc37772e-4|2
+100k|Res General Purpose Thick Film 0603 100k Ohm 1% 1/10W °¿100ppm/°„C Molded Paper T/R|R82, R84|RESC1608X55X30LL15T15|CMP-9abf51c576ad4578-20|2
+25k|RES SMD 25.5K OHM 1% 1/10W 0603|R83|RESC1609X50X30LL10T20|CMP-1857223-2|1
+43K|Thick Film Resistors - SMD 0603 43Kohms 5% Tol|R85|RESC1608X55X30LL15T15|CMP-3653524-2|1
+Omron B3U-1000P|Switch Tactile N.O. SPST Round Button Gull Wing 0.05A 12VDC 1.5N SMD Embossed T/R|RESET, SW1|PCB-a8ildroimidtkya2dspy-1|CMP-2198857-15|2
+Molex 1040310811|1.10mm Pitch microSD Memory Card Connector, SMT, Push-Pull Type, 1.42mm Height, with Detect Switch|SD|PCB-e07cv7eyfg1wxdj7ioop-1|CMP-a4a36cb6bd117b64-5|1
+JST B8B-XH-A(LF)(SN)|Connector Header, XH Series, 8 Position, 2.50mm, Through Hole, Press-Fit, Solder, Natural|SPI1, SPI2|PCB-mlv55ck369se549tp0uo-1|CMP-8c2545134b9253e2-2|2
+Molex 0022032041|Conn Unshrouded Header HDR 4 POS 2.54mm Solder ST Thru-Hole KK?? Bag|SWD, UART|PCB-w7fgx0p37qyww1etoafk-1|CMP-4df18464dcf59236-7|2
+PCF8574DGVR|Remote 8-Bit I/O Expander for I2C-Bus, 2.5 to 6 V, -40 to 85 degC, 20-pin TVSOP (DGV), Green (RoHS & no Sb/Br)|U1|DGV20_L|CMP-4873507-2|1
+Microchip MIC5504-2.8YM5-TR|Single 300mA LDO with Enable Pull-Down & Auto Discharge 5 SOT-23 T/R RoHS Compliant: Yes|U2|PCB-87v9kgqs8q23ekp4z6f0-1|CMP-260decfc55bff9ca-2|1
+Microchip MIC5504-1.2|Single 300mA LDO with Enable Pull-Down & Auto Discharge 5 SOT-23 T/R RoHS Compliant: Yes|U3|PCB-87v9kgqs8q23ekp4z6f0-1|CMP-260decfc55bff9ca-2|1
+Texas Instruments INA199A3RSWT|26-V, Bi-Directional, Zero-Drift, Low- or High-Side, Voltage Output Current Shunt Monitor 6-SC70 -40 to 125|U4, U5, U6, U11, U12, U14, U15|PCB-dzg43p1s5wcf61j10amz-1|CMP-0f05c77d0cddd0c2-11|7
+TCAN330GDCN|3.3-V CAN Transceivers with CAN FD (Flexible Data Rate) 8-SOT-23 -40 to 125|U7|PCB-dudqu7qvc0a2juw3nqi5-1|CMP-a47f694d5ac37bb8-2|1
+STMicroelectronics STM32H7A3ZIT6|STM32H Series 2 MB Flash 1.4 MB SRAM 280 MHz 32-Bit Microcontroller - LQFP-144|U8|PCB-qnuz4odb3kjwuv0h32wq-1|CMP-79c4b6aa4662a603-3|1
+SN65220DBVR|Single Universal Serial Bus Port Transient Suppressor, 2 Channels, -40 to +85 degC, 6-pin SOT-23 (DBV), Green (RoHS & no Sb/Br)|U9|DBV6_M|CMP-13588204-2|1
+LTC4359IMS8#TRPBF|Ideal Diode Controller with Reverse Input Protection, 4 to 80 V Vin, 8-pin SOP (MS8-8), -40 to 85 degC, Pb-Free, Tape and Reel|U10, U13|LT-MS8-8_L|CMP-3088331-2|2
+Texas Instruments LMR33640DDDAR|SIMPLE SWITCHER Synchronous Step-Down Converter 3.8V to 36V Input 4A 8-Pin SO PowerPAD T/R|U16, U17|PCB-6od3ifqvrl04n4lmrw41-1|CMP-bb02745c510e64c5-3|2
+BME280|Pressure, Temperature and Humidity Sensor Digital Output 1.8V 8-Pin LGA T/R|U18|PCB-pz4u251hci7fplawf7tn-1|CMP-19345792-15|1
+Bosch Tools BMI088|BMI088 Series 3.6 V 6 Axis Digital Output Accelerometer Motion Sensor - LGA-16|U19|PCB-rx9ouf6ws7u2trts4ghn-1|CMP-3c8ff0f6eb07e348-2|1
+Honeywell HMC5883L-TR|MAGNETIC SENSOR ON TAPE AND REEL|U20|PCB-2968744-2|CMP-2968744-5|1
+MT25QL256ABA1EW7-0SIT|NOR Flash Serial-SPI 3.3V 256Mbit 256M x 1bit 8-Pin WPDFN|U21|Micron W7 PDFN-8 MLP-8|CMP-fb1530fa0f9224d2-1|1
+Abracon ASDMB-10.000MHZ-LC-T|Oscillator MEMS 24MHz ?°¿50ppm (Stability) 15pF 55% 1.8V/2.5V/3.3V Automotive 4-Pin QFN SMD T/R|X1|PCB-wrjz21e0na9s1qg4p3ls-1|CMP-6748af096d52b88f-1|1
+Abracon ABS07-32.768KHZ-9-T|ABS07 Series 32.768 kHz °¿20 ppm 9 pF -40 to +85 °„C SMT Low Profile Crystal|X2|CAPC3215X09N|CMP-ab256225872974e2-3|1
+Abracon ABM10-166-12.000MHZ-T3|Crystal 12.00mhz 8pf Low Esr Smd 2.5x2.0|X3|PCBComponent_1 - duplicate|CMP-ad1c606f542d72db-7|1
