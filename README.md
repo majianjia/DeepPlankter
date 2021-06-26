@@ -30,7 +30,7 @@ This repo contains the main controller board of DeepPlankter.
 | --- | ---- | ---- | ---- | ---- |
 | 3.3V (CH1, CH2) | yes |  |  |  |
 | 5V (CH1, CH2, CH3) | yes |  |  |  |
-| BAT (CH1, CH2) | *yes | yes | yes | Cannot switch off completely |
+| BAT (CH1, CH2) | *yes | yes | yes | Base on ideal diode controller. |
 | Charge (CH1, CH2) | | *note | yes | Voltage = BAT |
 | ESC power | yes | *note | yes| Voltage = BAT |
 | Servo (CH1, CH2)| yes| *note | yes| Voltage = BAT |
@@ -51,8 +51,6 @@ This repo contains the main controller board of DeepPlankter.
 - 1 x 24P FPC DCMI camera interface (for OV2640)
 - 1 x 8P FPC and 2x4 rows debugging port (SWD + UART)
 - 1 x SDCard slot (SDIO)
-
-
 
 ## Battery, solar panels and MPPT chargers
 
@@ -92,8 +90,6 @@ Sailing during the winter is definitely a nightmare for the boat no matter how b
 We have 2 battery sets, each can store around 100Wh. It needs 5 sunny days to fully charge. 
 
 Both batteries together can supply a 1W consumption (3.3V 300mA) for a good week until next sunny days. Or 0.2W (3.3V 60mA)for a month. 
-
-
 
 
 
