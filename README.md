@@ -2,19 +2,19 @@
 
 An autonomous wave propelled/wind propelled drone boat.
 
-![dp_assembly_render_1.PNG](doc/figures/dp_assembly_render_1.PNG)
+![dp_assembly_render_1.PNG](doc/figures/dp_assembly_render_3.PNG)
 
-This repo hosts the main design files (PCB, mechanical parts and documents) of the DeepPlankter project, excluding the boat controller firmware and communication method. 
+This repo hosts the main design files (PCB, mechanical parts and development logs) of the DeepPlankter project, excluding the boat controller firmware and communication method. 
 
-Boat controller firmware will be hosted in its own [repo (Not yet public)]() 
+The source code of **navigation controller firmware** will be hosted in its own [repo (Not yet public)]() 
 
-*Communications and the remote control App/Website will not be opensourced because of safety reasons.*
+**Communication protocols and the remote control App/Website** are **NOT** opensourced because of safety reasons.
 
 # Hardware
 
 PCB file can be found in [PCB](PCB) folder. 
 
-**The controller:**
+**The boat controller:**
 
 - Dimension: 80 x 100 mm
 - MCU: STM32H7A3ZI, 280MHz, 1MB SRAM, 2MB Flash. 
