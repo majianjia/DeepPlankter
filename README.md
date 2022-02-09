@@ -1,6 +1,8 @@
 # DeepPlankter
 
-An autonomous wave propelled/wind propelled drone boat.
+An autonomous wave and wind propelled drone boat.
+
+It use free energy in the surrunding environment to sail for a very long distance. It relies on in-air free-rotate wing and the underwater wings to provide propulsion and solar panels to power the onboard electronics.   
 
 ![dp_assembly_render_1.PNG](doc/figures/dp_assembly_render_3.PNG)
 
