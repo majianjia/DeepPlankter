@@ -6,9 +6,9 @@ An autonomous wave propelled/wind propelled drone boat.
 
 This repo hosts the main design files (PCB, mechanical parts and development logs) of the DeepPlankter project, excluding the boat controller firmware and communication method. 
 
-The source code of **navigation controller firmware** will be hosted in its own [repo (Not yet public)]() 
+- The source code of **navigation controller firmware** will be hosted in its own [repo (Not yet public)]() 
 
-**Communication protocols and the remote control App/Website** are **NOT** opensourced because of safety reasons.
+- **Communication protocols and the remote control App/Website** are **NOT** opensourced because of safety reasons.
 
 # Hardware
 
