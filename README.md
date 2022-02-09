@@ -1,8 +1,18 @@
 # DeepPlankter
-An autonomous wave propelled drone boat.
+
+An autonomous wave propelled/wind propelled drone boat.
+
+![dp_assembly_render_1.PNG](doc/figures/dp_assembly_render_1.PNG)
+
+This repo hosts the main design files (PCB, mechanical parts and documents) of the DeepPlankter project, excluding the boat controller firmware and communication method. 
+
+Boat controller firmware will be hosted in its own [repo (Not yet public)]() 
+
+*Communications and the remote control App/Website will not be opensourced because of safety reasons.*
 
 # Hardware
-This repo contains the main controller board of DeepPlankter. 
+
+PCB file can be found in [PCB](PCB) folder. 
 
 **The controller:**
 
@@ -11,8 +21,8 @@ This repo contains the main controller board of DeepPlankter.
 - NorFlash
 - RTC
 
-
 **Sensors:**
+
 - IMU: BMI088
 - e-compass: HMC5883L
 - Environment sensor: BME280 (humidity, atmospheric pressure, temperature)
@@ -26,15 +36,15 @@ This repo contains the main controller board of DeepPlankter.
 
 **Power connector functions and monitoring**
 
-| Connector | Ctrl. Switched | Voltage gauge | Current gauge | Comments|
-| --- | ---- | ---- | ---- | ---- |
-| 3.3V (CH1, CH2) | yes |  |  |  |
-| 5V (CH1, CH2, CH3) | yes |  |  |  |
-| BAT (CH1, CH2) | *yes | yes | yes | Base on ideal diode controller. |
-| Charge (CH1, CH2) | | *note | yes | Voltage = BAT |
-| ESC power | yes | *note | yes| Voltage = BAT |
-| Servo (CH1, CH2)| yes| *note | yes| Voltage = BAT |
-| Servo (CH3)| | *note | | Voltage = BAT |
+| Connector          | Ctrl. Switched | Voltage gauge | Current gauge | Comments                        |
+| ------------------ | -------------- | ------------- | ------------- | ------------------------------- |
+| 3.3V (CH1, CH2)    | yes            |               |               |                                 |
+| 5V (CH1, CH2, CH3) | yes            |               |               |                                 |
+| BAT (CH1, CH2)     | *yes           | yes           | yes           | Base on ideal diode controller. |
+| Charge (CH1, CH2)  |                | *note         | yes           | Voltage = BAT                   |
+| ESC power          | yes            | *note         | yes           | Voltage = BAT                   |
+| Servo (CH1, CH2)   | yes            | *note         | yes           | Voltage = BAT                   |
+| Servo (CH3)        |                | *note         |               | Voltage = BAT                   |
 
 **Extension IOs:**
 
@@ -91,8 +101,7 @@ We have 2 battery sets, each can store around 100Wh. It needs 5 sunny days to fu
 
 Both batteries together can supply a 1W consumption (3.3V 300mA) for a good week until next sunny days. Or 0.2W (3.3V 60mA)for a month. 
 
-
-
 # Contact
+
 Jianjia Ma 
 `majianjia(-at-)live.com`
