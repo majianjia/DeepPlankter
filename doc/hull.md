@@ -25,8 +25,6 @@ Since the boat will sail at a lower speed (< 2knots), a small displacement hull 
 
 - Height: 90mm
 
-<style>
-</style>
 
 The hull has almost the same 140mm width for 90% of the length. Allows the panels to lay on most of the deck evenly. The front of the hull underwater part is a typical displacement hull design. I didn't pursue a narrow tip which is normally used in high-speed hull or RC model sailing boats. Because we still need a large top for the panels and the boat is too small which will easily be submerged in the incoming wave.
 
