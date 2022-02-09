@@ -2,7 +2,7 @@
 
 I have almost zero experience in designing neither building a boat hull. During the building, I made quite a few mistakes. But finally, something was built...
 
-## Hull designing in Fusion 360
+## Hull designing
 
 There are some points that need to take care of when designing the hull. 
 
@@ -63,7 +63,7 @@ Printing the bow section
 
 There is a big hold on the bow. It is expected and ok since we will cover it with epoxy and fibreglass. 
 
-![hull-printed-bow.jpg](figures/hull-printed-bow.jpg)
+![hull-printed-bow.jpg](figures/hull_printed_bow.jpg)
 
 Fixed bow
 
