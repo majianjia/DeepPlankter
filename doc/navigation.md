@@ -32,7 +32,7 @@ Different drone navigations algorithm have been widely implemented on many open 
 
 The most significant principle for L1 is it uses the term of "the acceleration back to track" (a_s_cmd) as the key parameter to control the course correction. Also, in many L1 implementations, they assume that η is a very small number so sine can be replaced by linear functions. L1 give drones very good track following method no mater the track is a line or a curve. It is also very simple to tune because there is only one parameter call L1, which define many things. Such as the track width, the damper for the stay on track acceleration, the length of line-of-sign to track, and others.  Here is the L1 principle (figure copyright belong to the paper author). 
 
-![](D:\work\personal\DeepPlankter\DeepPlankter\assets\2022-02-09-13-50-46-image.png)
+![](figures/nav_l1_diagram.png)
 
 The question for me is whether I should implement L1 or develop a specific algorithm for the boat. There are some considerations:
 
@@ -57,5 +57,3 @@ This is a very simple P controller, but the P setting will be very low so I am n
 Out of track detection calculate the track distance to the primary track. If the distance is larger than n=3 times of path width. The boat will no longer sail follows the track to the primary target. Instead, it create a secondary target waypoint on the primary track. Then it start to follow the secondary track in order to get back into the primary track. 
 
 The insertion point between secondary track and primary track is defined by the boat's current location and the maxi_offset_angle.
-
- 
