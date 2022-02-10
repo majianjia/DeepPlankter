@@ -2,11 +2,11 @@
 
 An autonomous wave and wind propelled drone boat.
 
-It use free energy in the surrunding environment to sail for a very long distance. It relies on in-air free-rotate wing and the underwater wings to provide propulsion and solar panels to power the onboard electronics.   
+It uses free energy in the surrounding environment to sail for a very long distance. It relies on in-air free-rotate wing and the underwater wings to provide propulsion and solar panels to power the onboard electronics.  
 
 ![dp_assembly_render_1.PNG](doc/figures/dp_assembly_render_3.PNG)
 
-This repo hosts the main design files (PCB, mechanical parts and development logs) of the DeepPlankter project, excluding the boat controller firmware and communication method. 
+This repo hosts the main design files (PCB, mechanical parts and development logs) of the DeepPlankter project, excluding the boat controller firmware and communication method.
 
 - The source code of **navigation controller firmware** will be hosted in its own [repo (Not yet public)]() 
 
@@ -74,34 +74,28 @@ PCB file can be found in [PCB](PCB) folder.
 - 2S over current protector and balance x 2
 - NTC x 2
 
-The power of the whole boat is purely supplied by solar panels. 
-We need to ensure the main controller never run out of power. 
-The power distribution is managed by the main controller board. 
-8 panels are grouped into 2 set with 4 panels in each set. 
-Each set of panels charge one battery through a independent MPPT charger and balanced by an independent protect board. 
-The power from the 2 batteries finally merge to a power rail through 2 ideal diode circuit. 
-Then the power can be distribute by the main controller board. 
+The power of the whole boat is purely supplied by solar panels. We need to ensure the main controller never run out of power. The power distribution is managed by the main controller board. 8 panels are grouped into 2 set with 4 panels in each set. Each set of panels charge one battery through an independent MPPT charger and is balanced by an independent protect board. The power from the 2 batteries finally merges to a power rail through 2 ideal diode circuits. Then the power can be distributed by the main controller board.
 
 The voltage and current of each charging circuit and battery are monitored.
 
 ### Energy estimation
 
-Each panel is rated 12V@160mA. In a sunny April day noon time, the maximum current measured is 10.5V@120mA when laying flat (simulate the angle on the boat). 
+Each panel is rated 12V@160mA. In a sunny April day noontime, the maximum current measured is 10.5V@120mA when laying flat (simulate the angle on the boat).
 
-So the peak power is around 1.25W for each panel. 8 of them can generate 10W. 
+So the peak power is around 1.25W for each panel. 8 of them can generate 10W.
 
-But there are efficiency drop due to DC/DC converter and the battery charging efficiency. We assume it is around 0.8, so the peak power to charge the battery is 8W. 
+But there are efficiency drops due to DC/DC converter and the battery charging efficiency. We assume it is around 0.8, so the peak power to charge the battery is 8W.
 
 The peak power multiple by the term, "peak sun hours", is the energy that generated per day.  
-For example,  per [this blog](https://www.pveducation.org/pvcdrom/properties-of-sunlight/average-solar-radiation#), in UK summer time, the peak sum hour is 5 hours, while in the winter, the number drops to 0.5 hours, so the power generated per day is around 40wh to 4wh. 
+For example,  per [this blog](https://www.pveducation.org/pvcdrom/properties-of-sunlight/average-solar-radiation#), in UK summertime, the peak sum hour is 5 hours, while in the winter, the number drops to 0.5 hours, so the power generated per day is around 40wh to 4wh.
 
 > The average daily solar insolation in units of kWh/m2 per day  is sometimes referred to as "peak sun hours". The term "peak sun hours"  refers to the solar insolation which a particular location would receive if the sun were shining at its maximum value for a certain number of  hours. 
 
-Sailing during the winter is definitely a nightmare for the boat no matter how big the battery is, it will be drained out very soon if we don't cut off the power to every module or put them into sleep. 
+Sailing during the winter is definitely a nightmare for the boat no matter how big the battery is, it will be drained out very soon if we don't cut off the power to every module or put them into sleep mode.
 
-We have 2 battery sets, each can store around 100Wh. It needs 5 sunny days to fully charge. 
+We have 2 battery sets, each can store around 100Wh. It needs 5 sunny days to fully charge.
 
-Both batteries together can supply a 1W consumption (3.3V 300mA) for a good week until next sunny days. Or 0.2W (3.3V 60mA)for a month. 
+Both batteries together can supply a 1W consumption (3.3V 300mA) for a good week until the next sunny day. Or 0.2W (3.3V 60mA)for a month.
 
 # Contact
 
