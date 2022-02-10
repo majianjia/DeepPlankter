@@ -46,14 +46,68 @@ The question for me is whether I should implement L1 or develop a specific algor
 
 To sum up, using L1 here will not be ideal, since we are not taking advantage of following track or the simplify parameter setting. Instead, we still need to have finer turning parameters such as track width and others. 
 
+We are more interest in large scale direction, for example, the path width can be 100 meter or ~km when in the ocean. Compared to these distances, the boat speed or accelerations seem very small. It is unnecessary to wake up the actuators to do small correction. We only care about whether the boat is heading to the right direction in long time scale (minutes or hours.)   
+
 ## Track following
 
-Track following is still needed, as the distance between waypoint can be too long. But will not try too hard to get back to the track. For the track following, unlike L1, I use a P controller on the crosstrack distance to get the course correction back to track. This correction is also limited by a fixed threshold, call max_offset_angle, this is normally in range of 45 deg to 70 deg.
+However, track following is still needed, as the distance between waypoint can be too long, simply heading to the target waypoint will have very limit resistance to interference such as wind and current. What we don't want is not try too hard to get back to the track, which consume our limited battery power. For the track following, unlike L1, I use a P controller on the cross track distance to get the course correction back to track. This correction is also limited by a fixed threshold, call max_offset_angle, this is normally in range of 45 deg to 70 deg.
 
-This is a very simple P controller, but the P setting will be very low so I am not too worry about oscillation. In the actuation implementation, there are also heavy filtering and lazy responding implementation. Small correction will not trigger the servo action (servo will be power down most of the time to save power). 
+![nav_track_follow.png](figures/nav_track_follow.png)
+
+This is a very simple P controller, but the P setting will be very low so I am not too worry about oscillation. In the actuator output implementation, there are also heavy filtering and lazy responding implementation, so a small correction will not trigger the servo action (servo will be power down most of the time to save power). 
 
 ## Out of track detection and secondary track
 
-Out of track detection calculate the track distance to the primary track. If the distance is larger than n=3 times of path width. The boat will no longer sail follows the track to the primary target. Instead, it create a secondary target waypoint on the primary track. Then it start to follow the secondary track in order to get back into the primary track. 
+Out of track detection calculate the track distance to the primary track. If the distance is larger than n=3 times of track width. The boat will no longer sail follows the track to the primary target. Instead, it creates a secondary target waypoint on the primary track. Then it starts to follow the secondary track in order to get back into the primary track. 
 
-The insertion point between secondary track and primary track is defined by the boat's current location and the maxi_offset_angle.
+![nav_out_of_track.png](figures/nav_out_of_track.png)
+
+The insertion point (the secondary target) between secondary track and primary track is defined by the boat's current location and the max_off_angle, the angle is set to < 90deg. At least, it will not go backward.
+
+Simulation :
+
+![nav_sim_sec_path.gif](figures/nav_sim_sec_path.gif)
+
+
+
+To be noticed that we use heading instead of course for this calculation for simplicity. It is expected strong current will push the  boat out of track quite often. But as I mention, we are not aiming for a extreme track following. 
+
+Also, the parameters we use do not contain derivative components (speed or acceleration), but we assume they are very small value compared to the waypoints and distance which hopeful make the parameters tuning cover most of the case. So, we don't need to do filtering because derivatives can be very noisy. 
+
+## Navigation with air-wing
+
+We know that sail boat cannot sail directly into wind, there is a angle threshold where the wind propulsion drop dramatically, when the wind direction changing from side to the head wind. Sailors call this no-sail zone. 
+
+![nav_sail_zone.jpg](D:\work\personal\DeepPlankter\DeepPlankter\doc\figures\nav_sail_zone.jpg)
+
+For free-rotate wing sail, there will be another zone for tail wind. 
+
+There are many researches that has been done with the wing sailing, such as [Design of a free-rotating wing sail for an autonomous sailboat by CLAES TRETOW](https://www.diva-portal.org/smash/get/diva2:1145351/FULLTEXT01.pdf).  Below is the polar diagram from the thesis. 
+
+
+
+![nav_wing_polar_diagram.png](figures/nav_wing_polar_diagram.png)
+
+We can see that the boat start to struggle when the wind direction over 150 deg (tail wind) or less than 30 deg (head wind).
+
+I assume our boat has similar diagram, so the our navigation has to be able to void sailing into these "no-sail" zone. When the course to target waypoint is close to wind direction we need to sail in a zigzag pattern. 
+
+![navi_sim_zigzag.png](figures/navi_sim_zigzag.png)
+
+I considered the below ways to implement zigzag path.
+
+- Add temporary waypoints + strict track following (such as L1). 
+
+- Allow some free sailing zone within a large track. 
+
+For the first method, adding temporary waypoints require extra calculation and waypoint management. Also, it is not very responsive when the wind direction changed during the temporary path. When generate temporary waypoint, it require stable wind direction measurement. This method require many measurement which will increase the complexity. 
+
+For the second method, as I mentioned in above sections, our navigation method has a large track width. So as long as the boat is in the track, it is free for the zigzag method to decide where to head.  The zigzag method can decide the heading freely according to current wind direction and wing angle. This method decoupled the  zigzag algorism with navigation algorism. which make it easier to design.
+
+The below diagram show the second method. When the boat is within the track, it can sail freely to any direction, and of course the zigzag algorism will navi the boat following the edge of "no-sail" zone. When the boat finally reach the boundary of track, the track following algorism will override the zigzag output and turn the boat back into the track immediately. 
+
+![nav_zigzagging_path.png](figures/nav_zigzagging_path.png)
+
+There is a path shrinking angle that will shrink the path near the waypoint. This angle is normally set to arctan(2). 
+
+In this zigzag mode, the "no-sail" zone is dynamically updated, depended on the wind angle measurement (which is relatively reliable). It is very good because the "wind direction" that we use is the relative direction, which combine the boat motion and the real wind motion. So it can continually update the heading to archive good wing efficiency. 
