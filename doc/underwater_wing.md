@@ -1,6 +1,6 @@
 # Underwater Wings
 
-The underwater wings is to convert the vertical motion (wave) of the hull to a small forward propulsion. So the boat can sail forward without the need of energy. 
+The underwater wings are to convert the vertical motion (wave) of the hull to small forward propulsion. So the boat can sail forward without the need for energy.
 
 I was planned to build the wing core from wood pieces. Cut the shape, then sand it down to streamline. But later I decided to let the 3d printer build the core. There are some issues with 3d printed parts.
 
@@ -46,6 +46,6 @@ A 4 mm stainless steel axis is used. All weight and lift are loaded on the axis.
 
 The next step is to glassfibre this wing and the supported mount. 
 
-To be continue. 
+To be continued. 
 
 
