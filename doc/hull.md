@@ -25,14 +25,12 @@ Since the boat will sail at a lower speed (< 2knots), a small displacement hull 
 
 - Height: 90mm
 
-
 The hull has almost the same 140mm width for 90% of the length. Allows the panels to lay on most of the deck evenly. The front of the hull underwater part is a typical displacement hull design. I didn't pursue a narrow tip which is normally used in high-speed hull or RC model sailing boats. Because we still need a large top for the panels and the boat is too small which will easily be submerged in the incoming wave.
 
 Also, the large top also increases the buoyancy when submerged in a wave. This increase the instability in a normal boat hull, which is not a good choice. However, with wave propelled wings, the increased tip buoyancy will lead to more lift on the front underwater wings. Thus, it should provide more propulsion. The lift loaded on the wing stabilized the boat.
 
 The tail design also follows a similar principle of steep buoyancy change, with the bottom of the hull (at the end) being raised near the waterline. When a wave comes, the buoyancy will increase very quickly to pull up the tail underwater wing.
 At the tail, there was also a motor mount and the hull stick out for protecting the motor. But later found this is not a good design.
-
 
 ![hull_rudder_offset.png](figures/hull_rudder_offset.png)
 
@@ -45,7 +43,6 @@ After some search online, I decided to build the hull with epoxy and fibreglass.
 I don't want to build a mould because it is too complex for me to do. I decided to print the hull using my 3D printer, then glue them together. Then apply a 3mm fibreglass-epoxy on the outside. Then sand down the surface to make it smooth.
 
 The plan sounds ok but ends up with a lot of trouble!
-
 
 - First, the fibreglass chopped strands and cloth are too rough for a small boat like this. They cannot easily band during the corners. I have to keep bending it during the final curing hours. But the result is still not perfect. It also result in quite a lot of bubbles after I remove the 3D printing part. It might result in leaking water!
 
@@ -100,7 +97,6 @@ When the filer is cured, I sand it down and apply another layer of 100gsm fibreg
 Then I remove most of the 3D printing parts from the inside because they are too easy to be a breakdown, I couldn't rely on fixing parts on the 3D printed part but have to directly contact the epoxy part.
 
 After the final layer, I sand them down and a final coating. It is quite smooth.
-
 
 ![hull_epoxy_final_coating.jpg](figures/hull_epoxy_final_coating.jpg)
 
