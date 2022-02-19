@@ -14,7 +14,7 @@ This repo hosts the main design files (PCB, mechanical parts and development log
 - **Communication protocols and the remote control App/Website** are **NOT** opensourced because of safety reasons.
 
 
-**Building Log Index**
+### Building Log Index
 
 1. [Hull building](doc/hull.md)
 
