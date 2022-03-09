@@ -10,7 +10,7 @@ In this experiment, I would test a few different things. Including
 - underwater wings. (cancelled, due to no wave)
 - waypoint mission. (cancelled, due to low rudder effectiveness)
 
-As you expected, this experiment wasn't going well. Fortunately, the boat float and recovered. Also, [data](../experiments/2022-03-06%20dp%20first%20%20water%20run) are recorded so we have something to analysis.
+As you expected, this experiment wasn't going well. Fortunately, the boat float and recovered. Also, [data](../experiments/2022-03-06%20dp%20first%20water%20run) are recorded so we have something to analysis.
 
 The motor can really push the quite fast, even the throttle has been limited to 50%. The motor consume around 5 Amp current at 50% throttle. When I pushed the throttle fully from the App (50%), I am quite worry about the boat sinking into the water and become a submarine... Beside the boat was not being able to turn, it is really fun to play with.
 
