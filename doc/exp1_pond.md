@@ -72,7 +72,10 @@ I order a few mini-360 step-down DC/DC boards to lower the voltage and a new ser
 
 This issue is partially related to the dead servo, but also the length of the rudder is underestimated. I did try to build an extended rudder that can stick on the existing rudder which I brought long time ago designed for RC boat. 
 
+The range of servo is set to +-30 degree, which seems too narrow. It is now increased to +-60. The actual angle that the rudder can turn is smaller than servo angle. 
+
 With only one working rudder, the boat can barely turn at high speed. I think that is because the motor was placed far behind the rudder.  The blue highlighted part is the new extension that will be added to the rudder. 
+
 
 ![rudder_extension.png](figures/rudder_extension.png)
 
