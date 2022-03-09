@@ -6,15 +6,13 @@ It uses free energy in the surrounding environment to sail for a very long dista
 
 ![dp_assembly_render_1.PNG](doc/figures/dp_assembly_render_3.PNG)
 
-
 This repo hosts the main design files (PCB, mechanical parts and development logs) of the DeepPlankter project, excluding the boat controller firmware and communication method.
 
 - The source code of **navigation controller firmware** will be hosted in its own [repo (Not yet public)]() 
 
 - **Communication protocols and the remote control App/Website** are **NOT** opensourced because of safety reasons.
 
-
-### Building Log Index
+### Building log
 
 1. [Hull building](doc/hull.md)
 
@@ -24,7 +22,9 @@ This repo hosts the main design files (PCB, mechanical parts and development log
 
 4. [Science Payload](doc/science_payload.md)
 
+### Experiment log
 
+[First water test at Setley Pond](doc/exp1_pond.md)
 
 # 3D designs
 

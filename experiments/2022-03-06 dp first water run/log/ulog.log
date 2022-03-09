@@ -1,0 +1,305 @@
+[432] I/SDIO mmcsd_detect: SD card capacity 30289920 KB.
+[447] I/filesys filesys: sd card mount to '/sd'
+[2259] I/waypoint wptest: Load Home: 0
+[2259] I/waypoint wptest: Load waypoint: 1
+[2260] I/waypoint wptest: Load waypoint: 2
+[2261] I/waypoint wptest: Load waypoint: 3
+[3706] I/cmux.gsm gsm_serv: cmux has been control uart8.
+[3895] I/at.clnt gsm_serv: AT client(V1.3.1) on device cmux_at initialize success.
+[4090] W/cmux cmuxrec1: control channel command haven't support.
+[4835] I/at.dev.sim800 at_clnt0: URC data : RDY
+
+[5499] I/record rec_mngr: create a data folder /sd/data
+[5530] I/record rec20hz: new recording file: /sd/data/f20hz_20220306142911.csv
+[5537] D/recorder rec20hz: Recorder data file created: /sd/data/f20hz_20220306142911.csv.
+[5612] I/record rec1hz: new recording file: /sd/data/f1hz_20220306142911.csv
+[5624] D/recorder rec1hz: Recorder data file created: /sd/data/f1hz_20220306142911.csv.
+[8911] W/cmux cmuxrec1: control channel command haven't support.
+[9126] W/cmux cmuxrec1: control channel command haven't support.
+[13109] I/ppp.dev tcpip: ppp_device connect successfully.
+[21370] I/camera camera: Take photo: /sd/photo/20220306142928
+[268168] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[364338] D/pfile cmodem1: recv CRQR size/id 7
+[365168] D/pfile cmodem1: send CVPK frame length: 27
+[365246] I/pfile cmodem1: Session finished. File /internal/dir.txt, size 27, sent 27, takes 201ms
+[368590] D/pfile cmodem1: recv CRQR size/id 10
+[369323] D/pfile cmodem1: send CVPK frame length: 83
+[369444] I/pfile cmodem1: Session finished. File /internal/dir.txt, size 83, sent 83, takes 165ms
+[377289] D/pfile cmodem1: recv CRQR size/id 15
+[377987] D/pfile cmodem1: send CVPK frame length: 94
+[378125] I/pfile cmodem1: Session finished. File /internal/dir.txt, size 94, sent 94, takes 176ms
+[561457] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[806530] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[858401] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[1275227] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[1821385] I/camera camera: Take photo: /sd/photo/20220306150227
+[2112833] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[2783175] I/record r_f20hz: new recording file: /sd/data/f20hz_20220306152004.csv
+[2941065] I/waypoint wp_upld: waypoint upload started, sending  4 waypoints.
+[2941069] I/waypoint wp_upld: waypoint upload completed, exit thread.
+[2945882] I/waypoint wp_upld: waypoint upload started, sending  4 waypoints.
+[2945885] I/waypoint wp_upld: waypoint upload completed, exit thread.
+[2967824] I/waypoint wp_upld: waypoint upload started, sending  4 waypoints.
+[2967827] I/waypoint wp_upld: waypoint upload completed, exit thread.
+[3379358] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[3622276] I/camera camera: Take photo: /sd/photo/20220306153527
+[5422572] I/camera camera: Take photo: /sd/photo/20220306160827
+[5460728] I/record r_f20hz: new recording file: /sd/data/f20hz_20220306160908.csv
+[346] I/SDIO mmcsd_detect: SD card capacity 30289920 KB.
+[366] I/filesys filesys: sd card mount to '/sd'
+[2259] I/waypoint wptest: Load Home: 0
+[2260] I/waypoint wptest: Load waypoint: 1
+[2261] I/waypoint wptest: Load waypoint: 2
+[2261] I/waypoint wptest: Load waypoint: 3
+[3706] I/cmux.gsm gsm_serv: cmux has been control uart8.
+[3895] I/at.clnt gsm_serv: AT client(V1.3.1) on device cmux_at initialize success.
+[4042] W/cmux cmuxrec1: control channel command haven't support.
+[4784] I/at.dev.sim800 at_clnt0: URC data : RDY
+
+[5332] I/record rec20hz: new recording file: /sd/data/f20hz_20220306162752.csv
+[5342] D/recorder rec20hz: Recorder data file created: /sd/data/f20hz_20220306162752.csv.
+[5389] I/record rec1hz: new recording file: /sd/data/f1hz_20220306162752.csv
+[5409] D/recorder rec1hz: Recorder data file created: /sd/data/f1hz_20220306162752.csv.
+[8912] W/cmux cmuxrec1: control channel command haven't support.
+[9128] W/cmux cmuxrec1: control channel command haven't support.
+[21225] I/camera camera: Take photo: /sd/photo/20220306162810
+[30818] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[33532] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[39598] I/ppp.dev tcpip: ppp_device connect successfully.
+[106874] I/waypoint wp_upld: waypoint upload started, sending  4 waypoints.
+[106878] I/waypoint wp_upld: waypoint upload completed, exit thread.
+[216843] I/waypoint gsm_serv: waypoint list upgrade required, len 4
+[216844] I/waypoint gsm_serv: remove 4 waypoints
+[217194] I/waypoint gsm_serv: write home :0,-15727038,507909565,10,0,0
+[217195] I/waypoint gsm_serv: write waypoint: 1,-15727109,507906557,10,0,106
+[217197] I/waypoint gsm_serv: write waypoint: 2,-15723457,507906888,10,0,253
+[217198] I/waypoint gsm_serv: write waypoint: 3,-15724164,507910621,10,0,167
+[217476] I/waypoint gsm_serv: remove 4 waypoints
+[217477] I/waypoint gsm_serv: remove 4 waypoints
+[217514] I/waypoint gsm_serv: Load Home: 0
+[217515] I/waypoint gsm_serv: Load waypoint: 1
+[217515] I/waypoint gsm_serv: Load waypoint: 2
+[217516] I/waypoint gsm_serv: Load waypoint: 3
+[217517] I/waypoint gsm_serv: waypoint list receive complete.
+[223131] I/waypoint gsm_serv: waypoint list upgrade required, len 4
+[223132] I/waypoint gsm_serv: remove 4 waypoints
+[223473] I/waypoint gsm_serv: write home :0,-15727038,507909565,10,0,0
+[223474] I/waypoint gsm_serv: write waypoint: 1,-15727109,507906557,10,0,106
+[223475] I/waypoint gsm_serv: write waypoint: 2,-15723457,507906888,10,0,253
+[223477] I/waypoint gsm_serv: write waypoint: 3,-15724164,507910621,10,0,118
+[223762] I/waypoint gsm_serv: remove 4 waypoints
+[223763] I/waypoint gsm_serv: remove 4 waypoints
+[223789] I/waypoint gsm_serv: Load Home: 0
+[223789] I/waypoint gsm_serv: Load waypoint: 1
+[223791] I/waypoint gsm_serv: Load waypoint: 2
+[223792] I/waypoint gsm_serv: Load waypoint: 3
+[223792] I/waypoint gsm_serv: waypoint list receive complete.
+[227433] I/waypoint wp_upld: waypoint upload started, sending  4 waypoints.
+[227437] I/waypoint wp_upld: waypoint upload completed, exit thread.
+[291667] I/camera camera: Take photo: /sd/photo/20220306163307
+[300394] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[315435] I/waypoint wp_upld: waypoint upload started, sending  4 waypoints.
+[315438] I/waypoint wp_upld: waypoint upload completed, exit thread.
+[322133] I/camera camera: Take photo: /sd/photo/20220306163340
+[327426] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[337654] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[353044] I/camera camera: Take photo: /sd/photo/20220306163414
+[383672] I/camera camera: Take photo: /sd/photo/20220306163447
+[414548] I/camera camera: Take photo: /sd/photo/20220306163521
+[445146] I/camera camera: Take photo: /sd/photo/20220306163555
+[476123] I/camera camera: Take photo: /sd/photo/20220306163628
+[506882] I/camera camera: Take photo: /sd/photo/20220306163702
+[537727] I/camera camera: Take photo: /sd/photo/20220306163736
+[568266] I/camera camera: Take photo: /sd/photo/20220306163809
+[598796] I/camera camera: Take photo: /sd/photo/20220306163842
+[626146] I/param gsm_serv: save parameter list to file: /internal/config.txt
+[628918] I/camera camera: Take photo: /sd/photo/20220306163915
+[637237] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[659176] I/camera camera: Take photo: /sd/photo/20220306163948
+[346] I/SDIO mmcsd_detect: SD card capacity 30289920 KB.
+[366] I/filesys filesys: sd card mount to '/sd'
+[2259] I/waypoint wptest: Load Home: 0
+[2260] I/waypoint wptest: Load waypoint: 1
+[2261] I/waypoint wptest: Load waypoint: 2
+[2261] I/waypoint wptest: Load waypoint: 3
+[3706] I/cmux.gsm gsm_serv: cmux has been control uart8.
+[3895] I/at.clnt gsm_serv: AT client(V1.3.1) on device cmux_at initialize success.
+[4042] W/cmux cmuxrec1: control channel command haven't support.
+[4787] I/at.dev.sim800 at_clnt0: URC data : RDY
+
+[5332] I/record rec20hz: new recording file: /sd/data/f20hz_20220306164009.csv
+[5343] D/recorder rec20hz: Recorder data file created: /sd/data/f20hz_20220306164009.csv.
+[5412] I/record rec1hz: new recording file: /sd/data/f1hz_20220306164009.csv
+[5427] D/recorder rec1hz: Recorder data file created: /sd/data/f1hz_20220306164009.csv.
+[8911] W/cmux cmuxrec1: control channel command haven't support.
+[9127] W/cmux cmuxrec1: control channel command haven't support.
+[17458] I/ppp.dev tcpip: ppp_device connect successfully.
+[21226] I/camera camera: Take photo: /sd/photo/20220306164027
+[51764] I/camera camera: Take photo: /sd/photo/20220306164100
+[81948] I/camera camera: Take photo: /sd/photo/20220306164133
+[112687] I/camera camera: Take photo: /sd/photo/20220306164207
+[143449] I/camera camera: Take photo: /sd/photo/20220306164240
+[173965] I/camera camera: Take photo: /sd/photo/20220306164314
+[204716] I/camera camera: Take photo: /sd/photo/20220306164347
+[213181] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[217534] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[220101] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[222362] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[234927] I/camera camera: Take photo: /sd/photo/20220306164420
+[265265] I/camera camera: Take photo: /sd/photo/20220306164453
+[296242] I/camera camera: Take photo: /sd/photo/20220306164527
+[326744] I/camera camera: Take photo: /sd/photo/20220306164600
+[333990] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[357724] I/camera camera: Take photo: /sd/photo/20220306164634
+[372304] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[388548] I/camera camera: Take photo: /sd/photo/20220306164708
+[418745] I/camera camera: Take photo: /sd/photo/20220306164741
+[449075] I/camera camera: Take photo: /sd/photo/20220306164814
+[480088] I/camera camera: Take photo: /sd/photo/20220306164848
+[498358] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[510996] I/camera camera: Take photo: /sd/photo/20220306164922
+[541425] I/camera camera: Take photo: /sd/photo/20220306164955
+[572387] I/camera camera: Take photo: /sd/photo/20220306165029
+[602427] I/camera camera: Take photo: /sd/photo/20220306165101
+[632826] I/camera camera: Take photo: /sd/photo/20220306165135
+[663633] I/camera camera: Take photo: /sd/photo/20220306165208
+[346] I/SDIO mmcsd_detect: SD card capacity 30289920 KB.
+[366] I/filesys filesys: sd card mount to '/sd'
+[346] I/SDIO mmcsd_detect: SD card capacity 30289920 KB.
+[366] I/filesys filesys: sd card mount to '/sd'
+[346] I/SDIO mmcsd_detect: SD card capacity 30289920 KB.
+[367] I/filesys filesys: sd card mount to '/sd'
+[346] I/SDIO mmcsd_detect: SD card capacity 30289920 KB.
+[367] I/filesys filesys: sd card mount to '/sd'
+[346] I/SDIO mmcsd_detect: SD card capacity 30289920 KB.
+[366] I/filesys filesys: sd card mount to '/sd'
+[346] I/SDIO mmcsd_detect: SD card capacity 30289920 KB.
+[366] I/filesys filesys: sd card mount to '/sd'
+[2259] I/waypoint wptest: Load Home: 0
+[2260] I/waypoint wptest: Load waypoint: 1
+[2260] I/waypoint wptest: Load waypoint: 2
+[2261] I/waypoint wptest: Load waypoint: 3
+[3706] I/cmux.gsm gsm_serv: cmux has been control uart8.
+[3895] I/at.clnt gsm_serv: AT client(V1.3.1) on device cmux_at initialize success.
+[4040] W/cmux cmuxrec1: control channel command haven't support.
+[4783] I/at.dev.sim800 at_clnt0: URC data : RDY
+
+[5334] I/record rec20hz: new recording file: /sd/data/f20hz_20220306165224.csv
+[5347] D/recorder rec20hz: Recorder data file created: /sd/data/f20hz_20220306165224.csv.
+[5388] I/record rec1hz: new recording file: /sd/data/f1hz_20220306165224.csv
+[5413] D/recorder rec1hz: Recorder data file created: /sd/data/f1hz_20220306165224.csv.
+[8911] W/cmux cmuxrec1: control channel command haven't support.
+[9127] W/cmux cmuxrec1: control channel command haven't support.
+[20217] I/ppp.dev tcpip: ppp_device connect successfully.
+[21277] I/camera camera: Take photo: /sd/photo/20220306165242
+[51371] I/camera camera: Take photo: /sd/photo/20220306165315
+[58574] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[82086] I/camera camera: Take photo: /sd/photo/20220306165348
+[91772] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[96161] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[112273] I/camera camera: Take photo: /sd/photo/20220306165421
+[116496] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[120240] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[123515] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[142768] I/camera camera: Take photo: /sd/photo/20220306165455
+[153794] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[173146] I/camera camera: Take photo: /sd/photo/20220306165528
+[203776] I/camera camera: Take photo: /sd/photo/20220306165601
+[233932] I/camera camera: Take photo: /sd/photo/20220306165634
+[240251] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[264743] I/camera camera: Take photo: /sd/photo/20220306165708
+[295517] I/camera camera: Take photo: /sd/photo/20220306165741
+[326173] I/camera camera: Take photo: /sd/photo/20220306165815
+[356848] I/camera camera: Take photo: /sd/photo/20220306165848
+[387231] I/camera camera: Take photo: /sd/photo/20220306165922
+[400269] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[418179] I/camera camera: Take photo: /sd/photo/20220306165956
+[448682] I/camera camera: Take photo: /sd/photo/20220306170029
+[479677] I/camera camera: Take photo: /sd/photo/20220306170103
+[490514] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[492710] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[510436] I/camera camera: Take photo: /sd/photo/20220306170136
+[541294] I/camera camera: Take photo: /sd/photo/20220306170210
+[571824] I/camera camera: Take photo: /sd/photo/20220306170243
+[601997] I/camera camera: Take photo: /sd/photo/20220306170316
+[632541] I/camera camera: Take photo: /sd/photo/20220306170421
+[645473] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[662881] I/camera camera: Take photo: /sd/photo/20220306170454
+[675148] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[693877] I/camera camera: Take photo: /sd/photo/20220306170528
+[703273] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[707177] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[724148] I/camera camera: Take photo: /sd/photo/20220306170602
+[754685] I/camera camera: Take photo: /sd/photo/20220306170635
+[785129] I/camera camera: Take photo: /sd/photo/20220306170709
+[799011] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[815165] I/camera camera: Take photo: /sd/photo/20220306170742
+[845632] I/camera camera: Take photo: /sd/photo/20220306170815
+[859902] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[876529] I/camera camera: Take photo: /sd/photo/20220306170849
+[889425] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[906895] I/camera camera: Take photo: /sd/photo/20220306170922
+[915718] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[917968] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[937472] I/camera camera: Take photo: /sd/photo/20220306170956
+[948937] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[967581] I/camera camera: Take photo: /sd/photo/20220306171030
+[970166] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[981573] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[997938] I/camera camera: Take photo: /sd/photo/20220306171103
+[1008778] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[1028826] I/camera camera: Take photo: /sd/photo/20220306171137
+[1035531] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[1036005] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[1058925] I/camera camera: Take photo: /sd/photo/20220306171210
+[1067758] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[1073168] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[1089696] I/camera camera: Take photo: /sd/photo/20220306171244
+[1120273] I/camera camera: Take photo: /sd/photo/20220306171317
+[1150971] I/camera camera: Take photo: /sd/photo/20220306171351
+[1181823] I/camera camera: Take photo: /sd/photo/20220306171426
+[1212499] I/camera camera: Take photo: /sd/photo/20220306171500
+[1243172] I/camera camera: Take photo: /sd/photo/20220306171533
+[1273871] I/camera camera: Take photo: /sd/photo/20220306171607
+[1304235] I/camera camera: Take photo: /sd/photo/20220306171640
+[346] I/SDIO mmcsd_detect: SD card capacity 30289920 KB.
+[366] I/filesys filesys: sd card mount to '/sd'
+[2259] I/waypoint wptest: Load Home: 0
+[2260] I/waypoint wptest: Load waypoint: 1
+[2260] I/waypoint wptest: Load waypoint: 2
+[2261] I/waypoint wptest: Load waypoint: 3
+[3706] I/cmux.gsm gsm_serv: cmux has been control uart8.
+[3896] I/at.clnt gsm_serv: AT client(V1.3.1) on device cmux_at initialize success.
+[4051] W/cmux cmuxrec1: control channel command haven't support.
+[4807] I/at.dev.sim800 at_clnt0: URC data : RDY
+
+[5336] I/record rec20hz: new recording file: /sd/data/f20hz_20220306171717.csv
+[5359] D/recorder rec20hz: Recorder data file created: /sd/data/f20hz_20220306171717.csv.
+[5429] I/record rec1hz: new recording file: /sd/data/f1hz_20220306171717.csv
+[5446] D/recorder rec1hz: Recorder data file created: /sd/data/f1hz_20220306171717.csv.
+[8911] W/cmux cmuxrec1: control channel command haven't support.
+[9127] W/cmux cmuxrec1: control channel command haven't support.
+[15644] I/ppp.dev tcpip: ppp_device connect successfully.
+[21295] I/camera camera: Take photo: /sd/photo/20220306171735
+[51694] I/camera camera: Take photo: /sd/photo/20220306171809
+[81932] I/camera camera: Take photo: /sd/photo/20220306171842
+[112623] I/camera camera: Take photo: /sd/photo/20220306171916
+[126241] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[142697] I/camera camera: Take photo: /sd/photo/20220306171949
+[153615] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[172699] I/camera camera: Take photo: /sd/photo/20220306172022
+[202796] I/camera camera: Take photo: /sd/photo/20220306172055
+[233738] I/camera camera: Take photo: /sd/photo/20220306172130
+[264722] I/camera camera: Take photo: /sd/photo/20220306172204
+[280865] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[295041] I/camera camera: Take photo: /sd/photo/20220306172237
+[325045] I/camera camera: Take photo: /sd/photo/20220306172310
+[355716] I/camera camera: Take photo: /sd/photo/20220306172344
+[385841] I/camera camera: Take photo: /sd/photo/20220306172417
+[416678] I/camera camera: Take photo: /sd/photo/20220306172451
+[430367] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[447635] I/camera camera: Take photo: /sd/photo/20220306172525
+[462616] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[477637] I/camera camera: Take photo: /sd/photo/20220306172558
+[489353] W/cmux cmuxrec1: Dropping frame: FCS doesn't match.
+[508544] I/camera camera: Take photo: /sd/photo/20220306172632
