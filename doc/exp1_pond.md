@@ -1,4 +1,4 @@
-# First experiment at Setley Pond
+# First motor powered experiment
 
 Did a experiment at Setley Pond, New Forest this Sunday afternoon 7th March 2022. 
 
