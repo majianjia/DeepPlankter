@@ -10,7 +10,7 @@ In this experiment, I would test a few different things. Including
 - underwater wings. (cancelled, due to no wave)
 - waypoint mission. (cancelled, due to low rudder effectiveness)
 
-As you expected, this experiment wasn't goes well. Fortunately, the boat float and recovered. Also, [data](../experiments/2022-03-06 dp first water run) are recorded so we have something to analysis.
+As you expected, this experiment wasn't going well. Fortunately, the boat float and recovered. Also, [data](../experiments/2022-03-06%20dp%20first%20water%20run) are recorded so we have something to analysis.
 
 The motor can really push the quite fast, even the throttle has been limited to 50%. The motor consume around 5 Amp current at 50% throttle. When I pushed the throttle fully from the App (50%), I am quite worry about the boat sinking into the water and become a submarine... Beside the boat was not being able to turn, it is really fun to play with.
 
@@ -24,21 +24,21 @@ In the next sessions, I will show the issues that found during the experiment an
 
 ## Issues
 
-- [EMC problem with antennas](#emc issue). 
+- [EMC problem with antennas](#emc-issue). 
 
-- [Water leaking from unknow source](#water leaking issue).
+- [Water leaking from unknow source](#water-leaking-issue).
 
-- [Dead servo might due to over voltage](# wervo found dead).
+- [Dead servo might due to over voltage](#servo-found-dead).
 
-- [Low rudder effectiveness](#low rudder effectiveness). 
+- [Low rudder effectiveness](#low-rudder-effectiveness). 
 
-- [ESC response too slow](#esc response too slow). 
+- [ESC response too slow](#esc-response-too-slow). 
 
-- [Batteries magnet field inferencing magnetometer](#batteries magnet field inferencing magnetometer). 
+- [Batteries magnet field affecting magnetometer](#batteries-magnet-field-affecting-magnetometer). 
 
-- [Boat mass centre too high, unstable](#boat mass centre too high, unstable). 
+- [Boat mass centre too high, unstable](#boat-mass-centre-too-high). 
 
-- [Camera data error and image over exposure](#camera data error and image over exposure). 
+- [Camera data error and image over exposure](#camera-data-error-and-image-over-exposure). 
 
 ### EMC issue
 
@@ -72,7 +72,10 @@ I order a few mini-360 step-down DC/DC boards to lower the voltage and a new ser
 
 This issue is partially related to the dead servo, but also the length of the rudder is underestimated. I did try to build an extended rudder that can stick on the existing rudder which I brought long time ago designed for RC boat. 
 
+The range of servo is set to +-30 degree, which seems too narrow. It is now increased to +-60. The actual angle that the rudder can turn is smaller than servo angle. 
+
 With only one working rudder, the boat can barely turn at high speed. I think that is because the motor was placed far behind the rudder.  The blue highlighted part is the new extension that will be added to the rudder. 
+
 
 ![rudder_extension.png](figures/rudder_extension.png)
 
@@ -80,11 +83,11 @@ With only one working rudder, the boat can barely turn at high speed. I think th
 
 I added a smooth throttle response in the software to eliminate the immediate change direction of the motor. But the value is too large. Adding some signalling delay, the boat feels like out of control many times, did not response for 5 seconds, while I did hear the servo is still responding to my command. Easy fixed issue. 
 
-### Batteries magnet field inferencing magnetometer
+### Batteries magnet field affecting magnetometer
 
 Fixed by moving the battery forward.. 10 cm away of controller box.
 
-### Boat mass centre too high, unstable
+### Boat mass centre too high
 
 Due to the heavy solar panels, the decks and the screws to fixed the decks, the mass centre were lifted too high, resulting in unstable roll motions. Even the propeller rotation cause 20 degrees rolling. 
 
