@@ -24,7 +24,9 @@ This repo hosts the main design files (PCB, mechanical parts and development log
 
 ### Experiment log
 
-[First water test at Setley Pond](doc/exp1_pond.md)
+1. [First motor powered experiment](doc/exp1_pond.md)
+
+2. [Second motor powered experiment](doc/exp2_pond.md)
 
 # 3D designs
 
