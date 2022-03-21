@@ -10,7 +10,7 @@ Overall, the experiment went well.
 
 - There is still a problem with LORA communication. 
 
-- There is only one water leaking issue found on the bow deck due to a unscrew bot. 
+- There is only one water leaking issue found on the bow deck due to a unscrew bolt. 
 
 - Waypoint planning seems effective, the boat can drive itself toward the waypoint and path direction. Although the turning radius is still quite large. 
 
