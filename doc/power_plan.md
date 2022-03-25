@@ -12,8 +12,6 @@ Our panels are laid flat on the deck so the sun angle is very important for the 
 
 The panel has rated 12V at 160mA under 1000W/m^2 (this number is about the direct sunlight on the ground). According to my previous measurement, each panel measured open-circuit voltage at 13.7V and short-circuit current at ~150mA. 
 
-
-
 A solar panel power test was done on 17 March.
 
 On 17 March 2022, the maximum sun angle is 40 degrees in Southampton UK. If we only consider the power is produced by the direct sunlight but not scattering light (discuss later), the panels generate 76% power of its right angle sunlight theoretically.
@@ -34,18 +32,13 @@ There is some noticeable information from the graph.
 
 What this number also means is that the sunlight can drive the boat in the daytime infinitely with 20% of the thruster throttle. In the second motor-driven test, at 20% throttle, the motor takes around 6W power while it can push the boat at a speed of 1.5 knots.   
 
-
-
 Below photo was took at 10:26. 
 
 ![power_solar_photo.jpg](figures/power_solar_photo.jpg)
 
-
-
 ## MPPT voltage and charge voltage
 
 The MPPT module has 4A maximum current but apparently we won't use that much. The nominal voltage for the solar panel is 12V (24 small cells in series), but because we are using parallel connections, a Schottky diode is needed for each panels, in case of uneven lighting causing too much reverse current (turning the shaded panel into LED). Because the voltage drop of the diode, the MPPT point should be set lower. Per the datasheet of the diode I used, the voltage drop at 100mA is around 0.4V. So the MPPT point should be tuned at 11.6V. 
-
 
 However, if you see the graph carefully, you will notice that the MPPT
 voltage is in fact set to 11V which is lower than our calculation above. My
@@ -56,7 +49,5 @@ consideration is
 - Besides lighting, a lower voltage can ensure all panels has space to generate current when they are not exactly the same. For example, some of them might be degraded differently during a time or they came with manufacturing defects. Result in cannot reach the higher MPPT voltage.
 
 - Since we have a fixed MPPT voltage setting, a lower voltage will ensure us a larger safety margin.
-
-
 
 To be continued.. 
